@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "773962798267",
+    "firebase_url": "https://chatabox-f2c7a.firebaseio.com",
+    "project_id": "chatabox-f2c7a",
+    "storage_bucket": "chatabox-f2c7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773962798267:android:7fd3feb84c36ea1d",
+        "android_client_info": {
+          "package_name": "com.fhwconsulting.chatabox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773962798267-f0ibgf7l4hlkt2fqq6nd317bve1if51p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt8_M9uVbCVkb0W0h8-GhY81-jv9OBW5o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

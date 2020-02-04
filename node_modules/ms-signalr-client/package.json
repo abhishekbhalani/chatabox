@@ -1,0 +1,55 @@
+{
+  "name": "ms-signalr-client",
+  "description": "packaged version of the Microsoft Javascript SignalR client",
+  "version": "2.2.7",
+  "main": "jquery.signalR.js",
+  "keywords": [
+    "signalr"
+  ],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "homepage": "https://github.com/dfrencham/ms-signalr-client",
+  "bugs": {
+    "url": "https://github.com/dfrencham/ms-signalr-client/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfrencham/ms-signalr-client"
+  },
+  "author": "Danny Frencham (https://diydeveloper.io)",
+  "contributors": [
+    "Danny Frencham (https://diydeveloper.io)"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  },
+  "jspm": {
+    "format": "global",
+    "registry": "npm",
+    "shim": {
+      "jquery.signalR": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "$.connection"
+      }
+    }
+  },
+  "scripts": {
+    "test": "./node_modules/phantomjs/bin/phantomjs ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js ./test/test.html ",
+    "test-windows": ".\\node_modules\\.bin\\phantomjs.cmd ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js ./test/test.html"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "gulp": "^3.8.11",
+    "jquery": "^2.1.3",
+    "mocha": "^2.5.3",
+    "mocha-phantomjs-core": "^1.3.1",
+    "phantomjs": "^2.1.7"
+  }
+}

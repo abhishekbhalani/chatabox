@@ -1,0 +1,62 @@
+{
+  "name": "chatabox",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.0",
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^10.0.0",
+    "appcenter": "^1.10.0",
+    "appcenter-analytics": "^1.10.0",
+    "appcenter-crashes": "^1.10.0",
+    "axios": "^0.18.0",
+    "botframework-directlinejs": "^0.10.0",
+    "expo": "^34.0.0",
+    "expo-asset": "~6.0.0",
+    "expo-contacts": "~6.0.0",
+    "expo-font": "~6.0.1",
+    "expo-permissions": "~6.0.0",
+    "fetch": "^1.1.0",
+    "libphonenumber-js": "^1.6.9",
+    "moment": "^2.24.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
+    "react-native-autocomplete-input": "^3.6.0",
+    "react-native-azure-ad-2": "^1.0.5",
+    "react-native-contacts": "^2.2.4",
+    "react-native-cookies": "^3.3.0",
+    "react-native-dropdownalert": "^3.7.1",
+    "react-native-elements": "^1.0.0",
+    "react-native-flash-message": "^0.1.10",
+    "react-native-gifted-chat": "^0.5.0",
+    "react-native-iphone-x-helper": "^1.2.0",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-scalable-image": "^0.5.0",
+    "react-native-signalr": "^1.0.6",
+    "react-native-webview": "~5.12.0",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "rnpm": "^1.9.0",
+    "sentry-expo": "~1.13.0",
+    "signalr-no-jquery": "^0.1.8",
+    "toggle-switch-react-native": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^6.0.0",
+    "jest-expo": "^34.0.0"
+  }
+}
