@@ -19,7 +19,7 @@
     "appcenter": "^1.10.0",
     "appcenter-analytics": "^1.10.0",
     "appcenter-crashes": "^1.10.0",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "botframework-directlinejs": "^0.10.0",
     "expo": "^34.0.0",
     "expo-asset": "~6.0.0",
